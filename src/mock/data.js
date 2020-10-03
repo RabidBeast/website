@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
     img: 'profile.jpg',
-    paragraphOne: `What started as a hobby when I was twelve years old, building a website for my friends on a video game, eventually blossomed into a strong and passionate career. I got serious about being a programmer when I was fifteen, and that's when the long days and nights of experimenting, googling, hitting my head on my desk, and learning began.`,
+    paragraphOne: `What started as a hobby when I was twelve years old, building a website for my friends in a video game, eventually blossomed into a strong and passionate career. I got serious about being a programmer when I was fifteen, and that's when the long days and nights of experimenting, googling, hitting my head on my desk, and learning began.`,
     paragraphTwo: `I'd never wanted to do anything more, and never felt more strongly connected to any activity. Going to college was the next logical step, but my attention wavered in an environment where I felt so far ahead of my peers. I needed to do more, so I started looking into paths beyond education in 2014, which is when I officially entered the work force as an intern for a Mobile Development company.`,
-    paragraphThree: `Now in 2020 at twenty-five, I've worked with an ever expanding array of technologies at the enterprise level. In my day job: I lead a team, teach my peers, and provide technological insights to supervisors that help guide business decisions. In my startup: I drive our technological decisions and guide the team on best practices in the doamin. I've easily spent thousands of hours writing code, possibly more than I've spent playing video games. I would consider myself a master programmer, but while my titles and duties change, I will always regard myself simply as a developer.`,
+    paragraphThree: `Now in 2020 at twenty-five, I've worked with an ever expanding array of technologies to produce production ready applications. In my day job: I lead a team, teach my peers, and provide technological insights to supervisors that help guide business decisions. In my startup: I drive our technological decisions and guide the team on best practices in the doamin. I've easily spent thousands of hours writing code, possibly more than I've spent playing video games. I would consider myself a master programmer, but while my titles and duties change, I will always regard myself simply as a developer.`,
     resume: '', // if no resume, the button will not show up
 };
 
@@ -31,12 +31,14 @@ export const projectsData = [{
     title: 'DGTL Suite',
     company: 'SPS DGTL (subsidiary of Y&L Consulting)',
     role: 'Software Architect',
-    info: 'Senior developer on a suite of applications tailored towards digital marketing and social media management.',
+    info: 'Senior developer on a suite of applications tailored towards digital marketing, digital content creation, and social media management.',
     tech: [
         'MEAN stack',
         'Google Cloud Platform',
         'Kubernetes/Docker',
-        'Microsft Azure'
+        'Microsft Azure',
+        'Facebook/Twitter/Linked-in Integrations',
+        'Stripe payment processing'
     ]
 }, {
     id: nanoid(),
@@ -54,11 +56,40 @@ export const projectsData = [{
     ]
 }, {
     id: nanoid(),
+    img: 'vividmagic.png',
+    title: 'Vivid Magic',
+    role: 'Software Engineer',
+    info: `Passion project utilizing HTML Canvas to play digital Magic the Gathering's Commander format in real time with friends`,
+    url: 'https://magic.bexarware.dev',
+    tech: [
+        'MEAN Stack',
+        'Google Cloud Platform',
+        'Kubernetes/Docker',
+    ]
+}, {
+    id: nanoid(),
     img: 'panplayexpo.png',
     title: 'PanPlay Expo',
     company: 'BexarWare',
     role: 'CTO and Co-Founder',
     info: 'Lead developer on a digital concert and expo platform aimed at bringing people closer through music and gaming.',
+    url: 'https://panplayexpo.com',
+    tech: [
+        'MEAN Stack',
+        'Google Cloud Platform',
+        'Kubernetes/Docker',
+    ]
+}, {
+    id: nanoid(),
+    img: 'bsn.png',
+    title: 'Buyer to Seller NET',
+    role: 'Software Engineer',
+    info: 'Project was a realtor-less home buying initiative, allowing users access to tools to help them sell their homes themselves.',
+    tech: [
+        'MEAN Stack',
+        'Amazon Web Services',
+        'Zillow integration'
+    ]
 }, {
     id: nanoid(),
     img: 'mywaterwell.png',
@@ -66,6 +97,11 @@ export const projectsData = [{
     company: 'MyWaterWell (on behalf of Y&L Consulting)',
     role: 'Software Engineer',
     info: `Project was a data management system for water well drillers with a fully interactive tool for laying out how a pipe would look as it is in the ground(not to scale). Primary responsibility was migrating the entire system of applications on Microsoft Azure from a contractor's account to one owned by the client. With virtually no documentation, few instructions, and no ability to communicate with the team in India that produced the software, I managed to prevail.`,
+    tech: [
+        '.NET/C#',
+        'MSSQL',
+        'Microsoft Azure',
+    ]
 }, {
     id: nanoid(),
     img: 'gsc.jpg',
@@ -73,6 +109,11 @@ export const projectsData = [{
     company: 'Great Southern Coins (on behalf of Y&L Consulting)',
     role: 'Software Engineer',
     info: `Project was an aggregator for collectibles listed on Ebay, Amazon Marketplace, and various independent retailers with commission based revenue models. Primary role was getting this project that had been archived for over five years running on AWS. Of course everything was broken, because time destroys projects. With little help from the previous developers, I dismantled this broken diesel engine of a project with only a butter knife, to fix the dozens of integrations from AWS Elastic Cloud Search to completely deprecated 3rd party API calls.`,
+    tech: [
+        '.NET/C#',
+        'MSSQL',
+        'Microsoft Azure',
+    ]
 }, {
     id: nanoid(),
     img: 'epux-dev.png',
@@ -80,12 +121,21 @@ export const projectsData = [{
     company: 'Epux Dev (subsidiary of Y&L Consulting)',
     role: 'Software Developer',
     info: `Project was aimed at capturing on the hype of the internet challenge craze. Consisted of an Android and iOS app communicating with a php backend, which I managed alone.`,
+    tech: [
+        'Android (Java)',
+        'iOS (Swift)',
+        'Amazon Web Services',
+    ]
 }, {
     id: nanoid(),
     img: 'wasdplay.png',
     title: 'WASDPlay',
     role: 'Software Developer',
     info: `Project was an e-sports betting turned community tournament bracket generation platform. Platform could create brackets that could run casual or competitive tournaments with direct integrations to games, stat tracking, and sponsored prize pools.`,
+    tech: [
+        'LAMP stack',
+        'Amazon Web Services',
+    ]
 }, {
     id: nanoid(),
     img: 'lion-mobile.png',
