@@ -20,8 +20,8 @@ export const aboutData = {
     img: 'profile.jpg',
     paragraphOne: `What started as a hobby when I was twelve years old, building a website for my friends in a video game, eventually blossomed into a strong and passionate career. I got serious about being a programmer when I was fifteen, and that's when the long days and nights of experimenting, googling, hitting my head on my desk, and learning began.`,
     paragraphTwo: `I'd never wanted to do anything more, and never felt more strongly connected to any activity. Going to college was the next logical step, but my attention wavered in an environment where I felt so far ahead of my peers. I needed to do more, so I started looking into paths beyond education in 2014, which is when I officially entered the work force as an intern for a Mobile Development company.`,
-    paragraphThree: `Now in 2020 at twenty-five, I've worked with an ever expanding array of technologies to produce production ready applications. In my day job: I lead a team, teach my peers, and provide technological insights to supervisors that help guide business decisions. In my startup: I drive our technological decisions and guide the team on best practices in the doamin. I've easily spent thousands of hours writing code, possibly more than I've spent playing video games. I would consider myself a master programmer, but while my titles and duties change, I will always regard myself simply as a developer.`,
-    resume: '', // if no resume, the button will not show up
+    paragraphThree: `Now in 2020 at twenty-five, I've worked with an ever expanding array of technologies to produce production ready applications. In my day job: I lead a team, teach my peers, and provide technological insights to supervisors that help guide business decisions. In my startup: I drive our technological decisions and guide the team on best practices in the domain. I've easily spent thousands of hours writing code, possibly more than I've spent playing video games. I would consider myself a master programmer, but while my titles and duties change, I will always regard myself simply as a developer.`,
+    resume: 'https://docs.google.com/document/d/1BfPG-QEmC05vnUrxuYT-sR9YDdbtfxNPey19OieazTw/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -37,8 +37,10 @@ export const projectsData = [{
         'Google Cloud Platform',
         'Kubernetes/Docker',
         'Microsft Azure',
-        'Facebook/Twitter/Linked-in Integrations',
-        'Stripe payment processing'
+        'Facebook/Twitter/Linkedin Social Integrations',
+        'Stripe payment processing',
+        'Custom single sign on solution',
+        'RSA based cryptography'
     ]
 }, {
     id: nanoid(),
@@ -46,7 +48,7 @@ export const projectsData = [{
     title: 'Untitled Insurance Software',
     company: 'BexarWare',
     role: 'CTO and Co-Founder',
-    info: 'Insurance system from a former professor turned partner. Guided design and implemented software development policies to produce a full redesign and rewrite of the insurance system in a more modern technology stack.',
+    info: 'Insurance system with a focus on REO and force-place insurance policy management. Project came from a former professor turned partner. Guided design and implemented software development policies to produce a full redesign and partial rewrite of the insurance system in a more modern technology stack.',
     tech: [
         'NodeJS',
         'Angular',
@@ -65,6 +67,7 @@ export const projectsData = [{
         'MEAN Stack',
         'Google Cloud Platform',
         'Kubernetes/Docker',
+        'Realtime websocket interactions'
     ]
 }, {
     id: nanoid(),
@@ -78,6 +81,7 @@ export const projectsData = [{
         'MEAN Stack',
         'Google Cloud Platform',
         'Kubernetes/Docker',
+        'Audio/Video processing and transmission'
     ]
 }, {
     id: nanoid(),
